@@ -18,3 +18,44 @@
         </section>
     </body>
 </html>
+
+                  
+                  body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Remplace les points ci-dessous par un sélecteur ciblant toutes les images de la page. */
+
+.img{
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;         
+                    /* Français : Remplace par une propriété arrondissant les angles de l'image. */
+}
+
+   
+
+
+
+/* Remplace les points ci-dessous par une classe "hover-effect" avec une pseudo-classe :hover.
+ Cette classe doit cibler la première image et la troisième image de la page. */
+
+.firstimg :hover{
+    
+    opacity: 0.8;         
+                    /* Remplace par une propriété modifiant l'opacité. */
+    cursor: pointer;
+}
+
+.thirdimg :hover{
+
+    opacity: 0.8;
+    cursor: pointer;
+    }
+
+/* Français : Remplace les points ci-dessous par un sélecteur ciblant la seconde image de la page. N'utilise pas de classe ou d'id ! */
+
+div:nth-child(3){
+   filter: gray level (100%);     
+                /* Français : Remplace par une propriété faisant paraître l'image en noir et blanc. */
