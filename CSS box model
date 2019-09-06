@@ -1,0 +1,164 @@
+
+corps
+{
+    famille de polices: Helvetica;
+    marge: auto;
+    largeur: 80%;
+    rembourrage en haut: 10px;
+}
+
+
+* {
+    marge: 0;
+    rembourrage: 0;
+    
+}
+
+nav
+{
+    bloc de visualisation;
+    marge: 0 auto;
+    largeur: 100%;
+    couleur de fond: # 424242;
+    taille de la police: 0;
+    text-align: left;
+}
+
+nav ul li
+{
+    affichage: inline-block;
+    hauteur: 15px;
+    largeur: auto;
+    marge: 0 auto;
+    text-align: center;
+}
+
+.fdp
+{
+    couleur: # c1c1c1;
+    taille de la police: 20px;
+    couleur de fond: # 424242;
+    marge: 0 20 px 0 20 px;
+}
+
+}
+
+.camarades: 
+{
+    couleur: # 959595;
+    taille de la police: 15px;
+    couleur de fond: # e0e0e0;
+  
+}
+
+.contact
+{
+    couleur: # c1c1c1;
+    taille de la police: 15px;
+    couleur de fond: # 424242;
+   
+}
+
+.contact: en vol stationnaire
+{
+    couleur: # 959595;
+    taille de la police: 15px;
+    couleur de fond: # e0e0e0;
+   
+}
+
+.carrousel
+{
+    bloc de visualisation;
+    couleur de fond: #eeeeee;
+    hauteur: 200px;
+    largeur: 100%;
+    marge: 0 auto;
+}
+
+h2
+{
+    bloc de visualisation;
+    taille de la police: 18px;
+    couleur: # 4b4b4b;
+    marge: 0 auto;
+    text-align: center;
+    rembourrage en haut: 50px;
+    largeur: 80%;
+}
+
+h2 span
+{
+    taille de la police: 14px;
+    couleur: # 6f6f6f;
+}
+
+.récipient
+{
+  largeur: 100%;
+  marge: 0 auto;
+  text-align: center;
+}
+
+.article
+{
+  affichage: inline-block;
+  largeur: 300px;
+  hauteur: 350px;
+  couleur de fond: #eeeeee;
+  marge supérieure: 50 px;
+  marge gauche: 5px;
+}
+
+forme h2
+{
+    text-align: left;
+    marge: 20px;
+    bordure: rainure grise 1px;
+    largeur: 100%;
+    couleur: # 4b4b4b;
+    taille de la police: 18px;
+}
+
+forme
+{
+    bloc de visualisation;
+    marge supérieure: 40 px;
+    text-align: center;
+    hauteur: 360px;
+}
+
+entrée de formulaire
+{
+    bloc de visualisation;
+    marge supérieure: 10px;
+    
+    largeur: 90%;
+    hauteur: 2px;
+    bordure: rainure grise 1px;
+    taille de la police: 10px;
+    marge: 0 auto;
+    marge supérieure: 15px;
+   
+}
+
+
+#assujettir
+{
+bloc de visualisation;
+marge: 0 auto;
+bordure: 1px gris uni;
+marge supérieure: 15px;
+largeur: 90%;
+}
+
+forme de texte
+{
+affichage: inline-block;
+marge: 0 auto;
+marge supérieure: 15px;
+largeur: 90%;
+hauteur: 150px;
+taille de la police: 10px;
+bordure: rainure grise 1px;
+}
