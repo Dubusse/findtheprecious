@@ -1,0 +1,64 @@
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ ls
+Bureau     examples.desktop  Modèles  Public           Vidéos
+Documents  Images            Musique  Téléchargements
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ ls telechargements
+*ls: impossible d'accéder à 'telechargements': Aucun fichier ou dossier de ce type
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ *ls images
+
+La commande « *ls » n'a pas été trouvée, voulez-vous dire :
+
+  commande « jls » du deb sleuthkit
+  commande « bls » du deb bacula-sd
+  commande « ols » du deb speech-tools
+  commande « ils » du deb sleuthkit
+  commande « fls » du deb sleuthkit
+  commande « als » du deb atool
+  commande « hls » du deb hfsutils
+  commande « ls » du deb coreutils
+
+Essayez : sudo apt install <nom du deb>
+
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ pwd
+/home/arthur
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ cd images
+bash: cd: images: Aucun fichier ou dossier de ce type
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ cd Images
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~/Images$ pwd
+/home/arthur/Images
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~/Images$ cd ..
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ pwd
+/home/arthur
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ cd..
+cd.. : commande introuvable
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ cd ..
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:/home$ pwd
+/home
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:/home$ cd ..
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:/$ pwd
+/
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:/$ ls
+bin    dev   initrd.img      lib64       mnt   run   srv       tmp  vmlinuz
+boot   etc   initrd.img.old  lost+found  proc  sbin  swapfile  usr  vmlinuz.old
+cdrom  home  lib             media       root  snap  sys       var
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:/$ ^C
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:/$ cd home/arthur
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ pwd
+/home/arthur
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ cd Images
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~/Images$ cd
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ cd Images
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~/Images$ cd
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ cd Images
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~/Images$ cd - 
+/home/arthur
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ cd Images
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~/Images$ cd -/Musique
+bash: cd: -/ : option non valable
+cd : utilisation : cd [-L|[-P [-e]] [-@]] [rép]
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~/Images$ cd /Musique
+bash: cd: /Musique: Aucun fichier ou dossier de ce type
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~/Images$ cd
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ cd/Musique
+bash: cd/Musique: Aucun fichier ou dossier de ce type
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ ^C
+arthur@arthur-OMEN-by-HP-Laptop-15-dc0xxx:~$ 
